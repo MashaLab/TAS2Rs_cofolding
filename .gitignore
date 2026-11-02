@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+.ipynb_checkpoints/
+# Data
+configs/*
+data/*
+predictions/*
+# Archives
+TAS2Rs_cofolding_data.zip
+# Other
+figures/other/*
+notebooks/Bitter_Diketopiperazines_From_Cocoa.ipynb

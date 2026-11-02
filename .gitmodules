@@ -1,0 +1,6 @@
+[submodule "external/rdkit"]
+	path = external/rdkit
+	url = https://github.com/rdkit/rdkit.git
+[submodule "external/boltz"]
+	path = external/boltz
+	url = https://github.com/jwohlwend/boltz.git
