@@ -9,12 +9,12 @@
 
 This repository contains the Python code and Jupyter notebooks required to reproduce the analyses and figures reported in the **Where do the ligands bind? Co-folding bitter taste GPCRs with the BitterDB chemical space** [preprint](https://www.biorxiv.org/content/10.64898/2026.06.26.734512v1).
 
-Data, predictions and config files avaliable in [Zenodo repository](zenodo_link).
+Data, predictions and config files avaliable in [Zenodo repository](https://zenodo.org/records/21872900).
 
 ## Installation 
 #### 1) Download the repository and install the TAS2Rs_cofolding environment
 ```text
-git clone https://github.com/kvakwiboy/TAS2Rs_cofolding.git
+git clone https://github.com/MashaLab/TAS2Rs_cofolding.git
 cd TAS2Rs_cofolding
 
 conda env create -f environment.yml
@@ -34,7 +34,7 @@ boltz predict [path_to_config_directory] --out_dir [path_to_predictions] --diffu
 You can find more information about using Boltz-2 in the [official repository](https://github.com/jwohlwend/boltz/tree/main).
 #### 3) Download the data from Zenodo
 ```text
-wget [zenodo_link]
+wget https://zenodo.org/records/21872900/files/TAS2Rs_cofolding_data.zip
 ```
 To obtain the full dataset, which includes data, predictions, and configuration files for non-agonist TAS2Rs and for fine-tuning the affinity module, please contact the authors directly to request access (evgenii.ziaikin@mail.huji.ac.il, masha.niv@mail.huji.ac.il).
 

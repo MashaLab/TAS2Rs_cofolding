@@ -7,7 +7,6 @@ predictions/Binding_pocket_replacement/
 predictions/Cofolded_TAS2R_agonists/
 predictions/Cofolded_TAS2R_cryoEM_complexes/
 predictions/Docked_TAS2R14_intracellular_binders/
-predictions/Finetune_affinity_module/checkpoints/
 predictions/Morphing_of_TAS2R14_and_TAS2R43/
 predictions/TM_replacement/
 data/msa/
